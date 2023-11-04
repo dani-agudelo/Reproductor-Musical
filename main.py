@@ -86,16 +86,6 @@ userList.addUserSong("Lynch", "Beat It", songList)
 userList.addUserSong("Bender", "Stairway To Heaven", songList)
 userList.addUserSong("Lynch", "Hotel California", songList)'''
 
-
-
-# print(userList.playUserList('Lynch'))
-# print("\n\nLista de Usuarios\n")#GOOD
-# userList.print()
-
-# print("\n\nEliminacion de Usuarios\n")
-# print(userList.remove("Bruise"))
-# print(userList.remove("Kenny"))
-
 userList.addUserSong("Lynch", "La bamba", songList)
 userList.addUserSong("Lynch", "Jump", songList)
 userList.addUserSong("Aspect", "Jump", songList)
@@ -103,40 +93,6 @@ userList.addUserSong("Aspect", "Beat It", songList)
 userList.addUserSong("Kraken", "Beat It", songList)
 userList.addUserSong("Kraken", "Stairway To Heaven", songList)
 userList.addUserSong("Psycho", "Hotel California", songList)
-userList.addUserSong("Bender", "Hotel California", songList)
-userList.addUserSong("Bender", "Beat It", songList)
-userList.addUserSong("Bender", "Stairway To Heaven", songList)
-userList.addUserSong("Bender", "La bamba", songList)
-userList.addUserSong("Bender", "Jump", songList)
-
-# userList.print()
-
-print("Playlist de Lynch", userList.playUserList('Lynch'))
-
-print("songCol", songList.get().size)
-# print("Playlist de Bender", userList.playUserList("Bender"))
-
-print("\n\nEliminando Cancion de una lista\n")
-songList.remove("Jump", userList)
-print("Playlist de Lynch", userList.playUserList('Lynch'))
-print("songCol", songList.get().size)
-print("Playlist de Lynch", userList.playUserList('Lynch'))
-
-
-
-# print("songCol", songList.get().size)
-# print("Otra vez Lynch",userList.playUserList('Lynch'))
-
-#Buscar una cancion de un usuario, de Bender
-
-
-# print("\n\nAgregando Canciones a Un Usuario Eliminado\n")
-# userList.addUserSong("Bruise", "Hey Jude", songList)
-
-# print("\n\nAgregando Canciones que no Existen\n")
-# userList.addUserSong("Kraken", "One", songList)
-
-# print("\n\nReproduciendo Lista de Canciones de Usuario\n")
-# userList.playUserList("Kraken")
-# userList.playUserList("Aspect")
-#HOLAAAAAAAAAAAAAAAAAAAAa
+userList.playUserList('Lynch')
+userList.remove('Lynch')
+userList.playUserList('Lynch')
