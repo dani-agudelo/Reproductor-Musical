@@ -28,7 +28,7 @@ class UserCollection():
         temp = self.find(username)
         if temp is not None:
             self.__users.remove(temp)
-            return temp.data
+            return temp # Este retorno no puede tener un .data porque debe retornar el nodo doble
         else:
             print('Usuario no existe')
 
