@@ -63,7 +63,7 @@ class UserCollection():
     #         if temp.data.username == username:
     #             # Reproduzco la playlist del usuario
                 
-    #             print(temp.data.playList()) #! No deja 
+    #             print(temp.data.playList()) #! No deja usar playList
     #             break
     #         temp = temp.next
     #     else:

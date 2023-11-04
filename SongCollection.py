@@ -39,7 +39,8 @@ class SongCollection():
                     print("entró")
                     user.removeSong(name)
                 else:              
-                    print("jmm") #!ESTÁ ENTRANDO NONE
+                    print("jmm") #!ESTÁ ENTRANDO NONE 
+                #
                 # print(user.playList())                
                 
                 # temp.data.removeSong(name)
